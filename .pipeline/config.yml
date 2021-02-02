@@ -13,6 +13,8 @@ stages:
     nodeName: 'OpenSAP_QA'
     credentialsId: 'tms'
 steps:
+  artifactPrepareVersion:
+    versioningType: 'cloud_noTag'
   artifactSetVersion:
     commitVersion: false
     
